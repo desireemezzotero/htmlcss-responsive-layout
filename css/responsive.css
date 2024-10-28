@@ -1,0 +1,121 @@
+/* Soluzione qui */
+
+
+/* TABLET */
+
+@media (min-width:768px) {
+
+  body {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+  }
+
+  #topbar {
+   justify-content: start;
+  }
+
+  .recipe-title {
+    padding-top: 50px;
+    font-size: 27px;
+  }
+
+  .recipe-category {
+    font-size: 17px;
+    font-family: ‘Nerko One’;
+  }
+ 
+  .recipe-origin {
+    display: inline-block;
+  }
+
+  .quick-notes ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .quick-notes ul li {
+    width: calc(100% / 3);
+  }
+
+  .social-networks .btn {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 50px;
+    border-radius: 50px;
+  }
+
+  .ads {
+    display: block;
+  }
+
+  .presentation img {
+    float: left;
+    margin:0px;
+    margin-right:10px;
+  }
+}
+
+
+/* DESKTOP */
+
+@media (min-width:992px) {
+  body {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+  }
+
+  #topbar {
+   justify-content: start;
+  }
+
+  .recipe-title {
+    font-size: 34px;
+  }
+  
+  .recipe-origin {
+    display: inline-block;
+  }
+    
+  .recipe-card {
+    display: flex;
+  }
+
+  .recipe-video {
+    width: 100%;
+    height: 22vw;
+  }
+  
+  .recipe-info {
+    width: 40%;
+  }
+
+
+  .quick-notes ul {
+    display: inline-block;
+    flex-wrap: nowrap;
+  }
+
+  .quick-notes ul li {
+    width:100%;
+  }
+  
+  .social-networks .label {
+    display: inline-block;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
+/* MOBILE 576 */
+
+@media (max-width:576px) {
+  .social-networks {
+    justify-content: space-around;
+  }
+
+}
+
+
